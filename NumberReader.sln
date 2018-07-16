@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberReader", "NumberReader\NumberReader.csproj", "{B3C03A50-6402-4134-8062-B1C33E298F92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3C03A50-6402-4134-8062-B1C33E298F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C03A50-6402-4134-8062-B1C33E298F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C03A50-6402-4134-8062-B1C33E298F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C03A50-6402-4134-8062-B1C33E298F92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C5E797-2C34-4AF4-8D91-F2C44204E0A3}
+	EndGlobalSection
+EndGlobal
