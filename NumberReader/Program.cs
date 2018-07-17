@@ -10,7 +10,7 @@ namespace NumberReader
     {
         static void Main(string[] args)
         {
-            
+            do {
             Console.WriteLine("Wpisz liczbę całkowitą od 1 do 1000");
             string input = Console.ReadLine();
             int a;
@@ -71,8 +71,16 @@ namespace NumberReader
 
             }
             else { Console.WriteLine("{0} nie jest liczbą!", input); }
-
-
+                
+            // tu wprowadzilem zmiane
+            Console.WriteLine("Czy chcesz powtorzyc? [T/N] ");
+            string temp = Console.ReadLine();
+                
+            } while (temp != "n") // <- tu sprawdzam czy warunek prawdzwiwy
+            //tzn, ze jezeli zmienna ->temp<- jest ROZNA od literki "n", to ma powtarzac.
+            //petla while bedzie sie powtarzac do momentu, az warunek w nawiasach przestanie byc prawdziwy
+                
+            Console.WriteLine("koniec, program wyskoczyl z petli.");
             Console.ReadKey();
 
         }
